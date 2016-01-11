@@ -71,7 +71,7 @@ public class Vendor
 	 */
 	public boolean makeSale()
 	{
-		if (deposit >= price && stock > 1) {
+		if (deposit >= price && stock >= 1) {
 			stock--;
 			if (deposit > price) {
 				change = deposit - price;
